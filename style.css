@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+* header {
+  height: 80px;
+  align-items: center;
+  display: grid;
+  background-color: red;
+}
+* header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+* header nav .links ul {
+  display: flex;
+  list-style-type: none;
+  gap: 20px;
+}
+* header nav .links ul li a {
+  text-decoration: none;
+  color: black;
+}/*# sourceMappingURL=style.css.map */
